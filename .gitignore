@@ -1,0 +1,43 @@
+# Игнорируем виртуальное окружение
+venv/
+.venv/
+
+# Кеши Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Лог-файлы и временные файлы
+*.log
+logs/
+*.out
+*.tmp
+
+# Конфигурационные файлы IDE
+.idea/
+*.iml
+
+# Настройки окружения
+.env
+*.env
+
+# Файлы зависимостей и кеш pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Кэш Docker
+**/Dockerfile~
+**/docker-compose.override.yml
+
+# Файлы базы данных
+*.sqlite3
+*.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Игнорируем архивы и временные файлы
+*.zip
+*.tar.gz
+*.rar
